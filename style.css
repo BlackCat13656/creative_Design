@@ -437,7 +437,6 @@ html {
   color: #444;
   margin-top: 5rem;
 }
-
 /*End of Section 4*/
 
 .scroll-up-btn {
@@ -461,7 +460,6 @@ html {
 }
 
 /*Responsive*/
-
 @media (max-width: 1400px) {
   .floating-bg {
     top: -120vh;
@@ -597,6 +595,45 @@ html {
     width: 42rem;
     font-size: 3.5rem;
   }
-}
 
+  .section-heading {
+    font-size: 6rem;
+  }
+
+  .customer {
+    margin: 5rem 0;
+  }
+
+  .team-member {
+    margin: 5rem 0;
+  }
+
+  .section-4 {
+    height: auto;
+  }
+
+  .form-container {
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .contact-form {
+    box-shadow: 1rem 1rem 2rem #aaa;
+  }
+
+  .contact-form:hover {
+    box-shadow: 2rem 2rem 3rem #aaa;
+  }
+
+  .copyright {
+    font-size: 1.8rem;
+    margin: 5rem;
+    text-align: center;
+  }
+
+  .scroll-up-btn {
+    bottom: 2rem;
+    right: 2rem;
+  }
+}
 /*End of Responsive*/
